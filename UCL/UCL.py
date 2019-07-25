@@ -15,7 +15,7 @@ def Match(s):
 	teams[s[0]][1] = teams[s[0]][1] + int(s[1]) - int(s[2])
 	teams[s[3]][1] = teams[s[3]][1] + int(s[2]) - int(s[1])
 
-n = input().split()
+n = input()
 n = int(n)
 
 output = []
